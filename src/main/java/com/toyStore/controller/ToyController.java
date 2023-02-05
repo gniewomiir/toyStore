@@ -68,7 +68,7 @@ public class ToyController {
         return "toyEdit";
     }
 
-    @RequestMapping("/deletToy/{id}")
+    @RequestMapping("/deleteToy/{id}")
     public String deleteToy(@PathVariable("id")int id){
         service.deleteById(id);
         return "redirect:/available_toys";
