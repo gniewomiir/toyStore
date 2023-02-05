@@ -21,5 +21,13 @@ public class ToyService {
         return tRepo.findAll();
     }
 
+    public Toy getToyById(int id){
+        return tRepo.findById(id).get();
+    }
+
+    public void deleteById(int id){
+        tRepo.deleteById(id);
+    }
+
 }
 
