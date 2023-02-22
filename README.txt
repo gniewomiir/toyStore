@@ -1,8 +1,4 @@
-# projekt-zaliczenie-mrutkow1
-projekt-zaliczenie-mrutkow1 created by GitHub Classroom
 
-
-Projekt z wykorzystaniem SPRINGBOOTA,
 
 Użyta baza danych:
 MySQL W celu połączenia aplikacji z bazą danych:
@@ -32,9 +28,7 @@ ograć dokładnie system ilościowy w tym przypadku tak by nie wysypywał się w
 Jest to odpowiednik swego rodzaju raportu ze sprzedanych zabawek
 dodatkowo w kodzie jest umiejscowiony zakomentowany przycisk ->resources/templates/myToys.html - linia 56 - pozwala on na usunięcie rekordu z listy gdyby była taka potrzeba.
 
-
-
-Braki na ten moment z założeniem projektu:
+TODO
 1.otwieranie pliku XML
 2.brak unit testów
 
